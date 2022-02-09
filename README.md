@@ -8,14 +8,20 @@ Place this file in the same directory as your LaTeX project.
 ```bash
 chmod 755 ./rerunpdf
 ```
+
+Add a symbolic link to the `/usr/local/bin` folder (you need to have admin permissions):
+```bash
+sudo ln -s $(pwd)/rerunpdf.sh /usr/local/bin/compile-tex
+```
+
 You can now use the script for your LaTeX code: 
 
 **Get help**
 ```bash
-./rerunpdf -h
+compile-tex -h
 ```
 
 **Run your code** where the main `tex` file is called `rootfile.tex`. 
 ```bash
-./rerunpdf rootfile
+compile-tex rootfile
 ```
