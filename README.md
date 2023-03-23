@@ -2,7 +2,11 @@
 Compile your LaTeX files with pdf LaTeX with ease.
 
 ## Quick guide
-Place this file in the same directory as your LaTeX project. 
+First, download this repository to an appropriate directory
+```bash
+git checkout https://github.com/alonsoJASL/sh.compilemytex ~/installs/compile-tex 
+cd ~/installs/compile-tex # move into the folder you just created
+```
 
 **Add permissions to the file** by typing: 
 ```bash
